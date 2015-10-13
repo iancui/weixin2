@@ -14,6 +14,10 @@
 		A060B2F31BCD401100FA6D1B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A060B2F11BCD401100FA6D1B /* LaunchScreen.storyboard */; };
 		A060B2FE1BCD401100FA6D1B /* weixin2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A060B2FD1BCD401100FA6D1B /* weixin2Tests.swift */; };
 		A060B3091BCD401100FA6D1B /* weixin2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A060B3081BCD401100FA6D1B /* weixin2UITests.swift */; };
+		A060B31A1BCD409800FA6D1B /* BuddyListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A060B3161BCD409800FA6D1B /* BuddyListViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		A060B31B1BCD409800FA6D1B /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A060B3171BCD409800FA6D1B /* ChatViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		A060B31C1BCD409800FA6D1B /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A060B3181BCD409800FA6D1B /* LoginViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		A060B31D1BCD409800FA6D1B /* WXMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = A060B3191BCD409800FA6D1B /* WXMessage.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		A060B3041BCD401100FA6D1B /* weixin2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = weixin2UITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A060B3081BCD401100FA6D1B /* weixin2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = weixin2UITests.swift; sourceTree = "<group>"; };
 		A060B30A1BCD401100FA6D1B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A060B3161BCD409800FA6D1B /* BuddyListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BuddyListViewController.swift; sourceTree = "<group>"; };
+		A060B3171BCD409800FA6D1B /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		A060B3181BCD409800FA6D1B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		A060B3191BCD409800FA6D1B /* WXMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXMessage.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,10 @@
 		A060B2E71BCD401100FA6D1B /* weixin2 */ = {
 			isa = PBXGroup;
 			children = (
+				A060B3161BCD409800FA6D1B /* BuddyListViewController.swift */,
+				A060B3171BCD409800FA6D1B /* ChatViewController.swift */,
+				A060B3181BCD409800FA6D1B /* LoginViewController.swift */,
+				A060B3191BCD409800FA6D1B /* WXMessage.swift */,
 				A060B2E81BCD401100FA6D1B /* AppDelegate.swift */,
 				A060B2EA1BCD401100FA6D1B /* ViewController.swift */,
 				A060B2EC1BCD401100FA6D1B /* Main.storyboard */,
@@ -255,7 +267,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A060B31D1BCD409800FA6D1B /* WXMessage.swift in Sources */,
+				A060B31A1BCD409800FA6D1B /* BuddyListViewController.swift in Sources */,
 				A060B2EB1BCD401100FA6D1B /* ViewController.swift in Sources */,
+				A060B31B1BCD409800FA6D1B /* ChatViewController.swift in Sources */,
+				A060B31C1BCD409800FA6D1B /* LoginViewController.swift in Sources */,
 				A060B2E91BCD401100FA6D1B /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -481,6 +497,7 @@
 				A060B30F1BCD401100FA6D1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A060B3101BCD401100FA6D1B /* Build configuration list for PBXNativeTarget "weixin2Tests" */ = {
 			isa = XCConfigurationList;
@@ -489,6 +506,7 @@
 				A060B3121BCD401100FA6D1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		A060B3131BCD401100FA6D1B /* Build configuration list for PBXNativeTarget "weixin2UITests" */ = {
 			isa = XCConfigurationList;
@@ -497,6 +515,7 @@
 				A060B3151BCD401100FA6D1B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
