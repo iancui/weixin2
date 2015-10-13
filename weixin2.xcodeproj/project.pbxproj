@@ -55,6 +55,7 @@
 		A060B3171BCD409800FA6D1B /* ChatViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		A060B3181BCD409800FA6D1B /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		A060B3191BCD409800FA6D1B /* WXMessage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WXMessage.swift; sourceTree = "<group>"; };
+		A060B3231BCD416C00FA6D1B /* wxxmpp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wxxmpp.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +86,7 @@
 		A060B2DC1BCD401100FA6D1B = {
 			isa = PBXGroup;
 			children = (
+				A060B3231BCD416C00FA6D1B /* wxxmpp.h */,
 				A060B2E71BCD401100FA6D1B /* weixin2 */,
 				A060B2FC1BCD401100FA6D1B /* weixin2Tests */,
 				A060B3071BCD401100FA6D1B /* weixin2UITests */,
